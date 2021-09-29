@@ -7,6 +7,7 @@ Space Shooter Roguelite
 
 ## Game Description
 Bosconian Roguelite. Defend various space systems from enemy craft while searching to take out their leader!
+
 At time of writing (9/28/2021) debating between controls being Binding of Isaac-like (WASD to move, Arrow Keys to Shoot), Asteroids-like (W/Up to move, S/Down to brake, A/Left to yaw counterclockwise, D/Right to yaw clockwise, Spacebar to shoot), or Bosconian-like (always moving, WASD/Arrow Keys to change trajectory to that 8-directional vector, Spacebar to shoot). Shift will always drop a screenclearing Bomb if one is in the inventory, à la Strikers 1945. Upon reaching the edge(s) of a "screen," wrap around to the opposite edge(s) à la Asteroids. Killing enemies can give Credits (currency), Bombs, or Health after "clearing" a "room" which also will allow access to "adjacent" rooms via wormholes. Upon clearing a "floor" you'll also get a Ship Upgrade that persists until death (such as stronger lasers, faster thrusters, additional hull plating, etc.)
 
 ## Currencies
