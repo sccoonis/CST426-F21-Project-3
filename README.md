@@ -20,6 +20,7 @@ Rudimentary sprites and sine wave SFX. Should be relatively cheap to implement.
 
 ## Milestones
 10/8/21 - Playtest Prototype
+
 12/9/21 - Proof of concept complete
 
 Should time allow:
