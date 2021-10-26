@@ -21,50 +21,62 @@ if (mode = 1) {
 	if (keyboard_check(vk_up)) {			// NORTHS
 		if (keyboard_check(vk_left)) {		// NW
 			image_angle = 135;
+			motion_set(image_angle, bosconianSpeed);
 		}
 		else if (keyboard_check(vk_right)) {// NE
-			image_angle = 45; 
+			image_angle = 45;
+			motion_set(image_angle, bosconianSpeed);
 		}
 		else {
 			image_angle = 90;				// N
+			motion_set(image_angle, bosconianSpeed);
 		}
 	}
 	////////////////////////////////////////////
 	if (keyboard_check(vk_right)) {			// EASTS
 		if (keyboard_check(vk_up)) {		// NE
-			image_angle = 45; 
+			image_angle = 45;
+			motion_set(image_angle, bosconianSpeed);
 		}
 		else if (keyboard_check(vk_down)) {	// SE
-			image_angle = 315; 
+			image_angle = 315;
+			motion_set(image_angle, bosconianSpeed);
 		}
 		else {
 			image_angle = 0;				// E
+			motion_set(image_angle, bosconianSpeed);
 		}
 	}
 	////////////////////////////////////////////
 	if (keyboard_check(vk_down)) {			// SOUTHS
 		if (keyboard_check(vk_right)) {		// SE
-			image_angle = 315; 
+			image_angle = 315;
+			motion_set(image_angle, bosconianSpeed);
 		}
 		else if (keyboard_check(vk_left)) {	// SW
-			image_angle = 225; 
+			image_angle = 225;
+			motion_set(image_angle, bosconianSpeed);
 		}
 		else {
 			image_angle = 270;				// S
+			motion_set(image_angle, bosconianSpeed);
 		}
 	}
 	////////////////////////////////////////////
 	if (keyboard_check(vk_left)) {			// WESTS
 		if (keyboard_check(vk_down)) {		// SW 
-			image_angle = 225; 
+			image_angle = 225;
+			motion_set(image_angle, bosconianSpeed);
 		}
-		else if (keyboard_check(vk_up)) {	//NE
-			image_angle = 135; 
+		else if (keyboard_check(vk_up)) {	// NW
+			image_angle = 135;
+			motion_set(image_angle, bosconianSpeed);
 		} else {
-			image_angle = 180;				//W
+			image_angle = 180;				// W
+			motion_set(image_angle, bosconianSpeed);
 		}
-	}
+	}	
 }
 ////////////////////////////////////////////
 
-move_wrap(true, true, sprite_width / 2);		//x and y wrap with margin being half the sprite
+move_wrap(true, true, sprite_width / 2);	// x and y wrap with margin being half the sprite
