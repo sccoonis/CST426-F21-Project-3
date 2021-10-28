@@ -1,3 +1,3 @@
 /// @description Collision with debris
 
-instance_destroy();
+game_restart();
