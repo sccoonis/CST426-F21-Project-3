@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"snd_coin","path":"sounds/snd_coin/snd_coin.yy",},"order":4,},
+    {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":6,},
     {"id":{"name":"snd_player_death","path":"sounds/snd_player_death/snd_player_death.yy",},"order":10,},
     {"id":{"name":"snd_boss_death_scream","path":"sounds/snd_boss_death_scream/snd_boss_death_scream.yy",},"order":3,},
     {"id":{"name":"snd_laser_meaty","path":"sounds/snd_laser_meaty/snd_laser_meaty.yy",},"order":8,},

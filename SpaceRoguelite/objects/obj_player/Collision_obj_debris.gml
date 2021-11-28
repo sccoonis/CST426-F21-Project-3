@@ -9,4 +9,6 @@ repeat(10) {
 	instance_create_layer(x, y, "Instances", obj_debris_effect);
 }
 
-//game_restart();
+with(obj_game) {
+	alarm[1] = room_speed * 1;	// slightly redundant but able to change linger time if want later
+}
