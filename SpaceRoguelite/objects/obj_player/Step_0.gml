@@ -24,7 +24,7 @@ if (mode = 0) {
 		inst.direction = image_angle;									// set bullet's direction
 																		// relative to player when
 																		// called
-		audio_play_sound(snd_laser, 100, false);
+		audio_play_sound(snd_laser, 1, false);
 	}
 }
 
@@ -100,7 +100,7 @@ if (mode = 1) {
 	inst.direction = image_angle;									// set bullet's direction
 																	// relative to player when
 																	// called
-	audio_play_sound(snd_laser, 100, false);
+	audio_play_sound(snd_laser, 1, false);
 	}
 }
 ////////////////////////////////////////////
