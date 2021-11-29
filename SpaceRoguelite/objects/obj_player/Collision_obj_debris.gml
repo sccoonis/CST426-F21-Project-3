@@ -2,7 +2,7 @@
 
 lives -= 1;
 
-audio_play_sound(snd_player_hit, 50, false);
+audio_play_sound(snd_player_hit, 2, false);
 
 instance_destroy();
 repeat(10) {

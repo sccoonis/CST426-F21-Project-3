@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Debris",
+    "path": "folders/Objects/Debris.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_debris_effect",
