@@ -17,14 +17,7 @@ if (mode = 0) {
 	if (keyboard_check_pressed(vk_space)) {								// per frame if the spacebar
 																		// has been pressed
 																		
-		var inst = instance_create_layer(x, y, "Instances", obj_bullet);// create a temporary local
-																		// variable for our bullet
-																		// at the player's position
-																		
-		inst.direction = image_angle;									// set bullet's direction
-																		// relative to player when
-																		// called
-		audio_play_sound(snd_laser, 1, false);
+		scr_create_bullet(image_angle, bulletSpeed, faction, id);
 	}
 }
 
@@ -93,14 +86,7 @@ if (mode = 1) {
 	if (keyboard_check_pressed(vk_space)) {							// per frame if the spacebar
 																	// has been pressed
 																		
-	var inst = instance_create_layer(x, y, "Instances", obj_bullet);// create a temporary local
-																	// variable for our bullet
-																	// at the player's position
-																		
-	inst.direction = image_angle;									// set bullet's direction
-																	// relative to player when
-																	// called
-	audio_play_sound(snd_laser, 1, false);
+		scr_create_bullet(image_angle, bulletSpeed, faction, id);
 	}
 }
 ////////////////////////////////////////////

@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.8,
+  "volume": 0.4,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_game_over.wav",
-  "duration": 3.8139,
+  "duration": 2.557778,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

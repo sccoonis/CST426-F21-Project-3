@@ -3,6 +3,10 @@
 if (room == rm_debug) {
 	scr_spawn_off_camera(obj_debris, 40);
 	
+	scr_spawn_off_camera(obj_enemy_grunt, 8);
+	scr_spawn_off_camera(obj_enemy_ace, 5);
+	scr_spawn_off_camera(obj_enemy_goliath, 3);
+	
 	// bgm documentation for later
 	/*
 	if (audio_is_playing(SOMESONG)) {

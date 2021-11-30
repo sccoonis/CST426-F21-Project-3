@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.3,
+  "volume": 0.35,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_rock_break_big.wav",
-  "duration": 0.490771,
+  "soundFile": "snd_bullet_hit.wav",
+  "duration": 0.268141,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_rock_break_big",
+  "name": "snd_bullet_hit",
   "tags": [],
   "resourceType": "GMSound",
 }

@@ -4,7 +4,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_faction",
+    "path": "objects/obj_faction/obj_faction.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,11 +26,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Enemy",
+    "path": "folders/Objects/Enemy.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_documentation",
+  "name": "obj_enemy_faction",
   "tags": [],
   "resourceType": "GMObject",
 }
