@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_debris_effect",
-    "path": "sprites/spr_debris_effect/spr_debris_effect.yy",
+    "name": "spr_enemy_grunt",
+    "path": "sprites/spr_enemy_grunt/spr_enemy_grunt.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_parent_enemy",
+    "path": "objects/obj_parent_enemy/obj_parent_enemy.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -21,17 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Debris",
-    "path": "folders/Objects/Neutral/Debris.yy",
+    "name": "Enemy",
+    "path": "folders/Objects/Enemy.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_debris_effect",
+  "name": "obj_enemy_grunt",
   "tags": [],
   "resourceType": "GMObject",
 }

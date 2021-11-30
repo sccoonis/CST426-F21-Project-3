@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_debris_effect",
-    "path": "sprites/spr_debris_effect/spr_debris_effect.yy",
+    "name": "spr_enemy_goliath",
+    "path": "sprites/spr_enemy_goliath/spr_enemy_goliath.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_parent_enemy",
+    "path": "objects/obj_parent_enemy/obj_parent_enemy.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,11 +30,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Debris",
-    "path": "folders/Objects/Neutral/Debris.yy",
+    "name": "Enemy",
+    "path": "folders/Objects/Enemy.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_debris_effect",
+  "name": "obj_enemy_goliath",
   "tags": [],
   "resourceType": "GMObject",
 }

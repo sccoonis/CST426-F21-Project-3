@@ -1,4 +1,4 @@
-/// @description Collision with debris
+/// @description On death
 
 lives -= 1;
 
