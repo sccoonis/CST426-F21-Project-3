@@ -28,9 +28,14 @@ function scr_create_bullet(_dir, _spd, _fac, _creator, _gun_type) {
 			var inst = instance_create_layer(x, y, "Instances", obj_laser);
 			scr_initialize_bullet(_dir, _spd, _fac, _creator, inst);
 			break;
-			
+		
+		// TODO - fix 
 		case powerups.backshot:
 			audio_play_sound(snd_bullet, 1, false);
+			var inst = instance_create_layer(x, y, "Instances", obj_bullet);
+			scr_initialize_bullet(_dir, _spd, _fac, _creator, inst);
+			var inst = instance_create_layer(x, y, "Instances", obj_bullet);
+			scr_initialize_bullet(_dir - 180, _spd, _fac, _creator, inst);
 			break;
 			
 		default:

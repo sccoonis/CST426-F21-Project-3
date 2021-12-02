@@ -1,4 +1,4 @@
-/// @description Roll for item spawn
+/// @description Roll for item spawn and split if big
 
 if (sprite_index == spr_sml_debris) {
 	chance = random_range(0 ,1);

@@ -13,7 +13,7 @@ if (point_distance(x, y, obj_player.x, obj_player.y) < 250 ) {
 	
 	newAngle = image_angle - angle_difference(image_angle, newAngle);	// find closest way to spin
 	
-	image_angle = lerp(image_angle, newAngle, 0.05);						// 1% per frame
+	image_angle = lerp(image_angle, newAngle, 0.05);
 	
 	// potshot
 	bulletCounter++;
@@ -26,5 +26,5 @@ if (point_distance(x, y, obj_player.x, obj_player.y) < 250 ) {
 else
 {
 	//face direction already going
-	image_angle = lerp(image_angle, direction, 0.05);						// 1% per frame
+	image_angle = lerp(image_angle, direction, 0.05);
 }
