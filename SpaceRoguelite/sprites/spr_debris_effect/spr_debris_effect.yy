@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Debris",
+    "path": "folders/Sprites/Debris.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_debris_effect",

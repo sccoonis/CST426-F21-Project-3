@@ -1,4 +1,4 @@
-/// @description Draw temp GUI
+/// @description Draw GUI
 
 switch (room) {
 	case rm_start:
@@ -11,8 +11,11 @@ switch (room) {
 		break;
 	
 	case rm_debug:
-		draw_text(20, 20, "SCORE: " + string(score));
-		draw_text(20, 40, "LIVES: " + string(lives));
+		with(obj_player) {
+			draw_text(20, 20, "HP: "    + string(hp) + "/" + string(maxHp));
+			draw_text(20, 40, "cR: "    + string(credits));
+			draw_text(20, 60, "Bombs: " + string(bombs)); 
+		}
 		break;
 		
 	case rm_win:

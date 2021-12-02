@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_laser_meaty.wav",
+  "soundFile": "snd_bullet_meaty.wav",
   "duration": 0.366304,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_laser_meaty",
+  "name": "snd_bullet_meaty",
   "tags": [],
   "resourceType": "GMSound",
 }

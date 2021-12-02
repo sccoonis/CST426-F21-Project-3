@@ -1,3 +1,4 @@
-/// @description Buffer a restart on hit
+/// @description Buffer death
 
-room_restart();
+room_goto(rm_gameover);
+audio_play_sound(snd_game_over, 3, false);

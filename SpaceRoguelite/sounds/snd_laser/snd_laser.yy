@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.25,
+  "volume": 0.4,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_laser.wav",
-  "duration": 0.308753,
+  "duration": 0.325079,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
