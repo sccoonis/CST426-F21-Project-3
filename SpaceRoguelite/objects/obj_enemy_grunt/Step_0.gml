@@ -18,7 +18,7 @@ if (point_distance(x, y, obj_player.x, obj_player.y) < 250 ) {
 	// potshot
 	bulletCounter++;
 	if (bulletCounter >= 60) {
-		scr_create_bullet(image_angle, 4, faction, id);
+		scr_create_bullet(image_angle, 4, faction, id, 0);
 		bulletCounter = 0;
 	}
 }

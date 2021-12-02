@@ -1,8 +1,6 @@
 /// @description On death
 
-lives -= 1;
-
-audio_play_sound(snd_player_hit, 2, false);
+audio_play_sound(snd_player_death, 2, false);
 
 instance_destroy();
 repeat(10) {
@@ -10,5 +8,5 @@ repeat(10) {
 }
 
 with(obj_game) {
-	alarm[1] = room_speed * 1;	// slightly redundant but able to change linger time if want later
+	alarm[1] = room_speed * 2;	// slightly redundant but able to change linger time if want later
 }
