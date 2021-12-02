@@ -8,7 +8,7 @@ draw_line_width_color(x, y,
 					  2, image_blend, image_blend);
 
 // Collision
-var inst = collision_line(x + 50, y + 50,
+var inst = collision_line(x + 5, y + 5,
 						  x + lengthdir_x(length, direction), y + lengthdir_y(length, direction),
 						  obj_faction, false, false);
 						  

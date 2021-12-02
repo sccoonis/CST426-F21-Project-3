@@ -1,4 +1,4 @@
-/// @description On death
+/// @description On death and roll for item drop
 
 audio_play_sound(snd_bullet_hit_big, 2, false);
 repeat(10) {
@@ -18,7 +18,6 @@ switch (object_index) {
 		score += 5;
 		break;
 }
-
 
 chance = random_range(0.2, 1);
 

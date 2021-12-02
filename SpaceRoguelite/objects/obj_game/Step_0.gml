@@ -34,6 +34,7 @@ if (score >= 50) {
 with(obj_player) {
 	if (credits >= 15) {
 		credits -= 15;
+		audio_play_sound(snd_powerup, 2, false);
 		bombs++;
 	}
 }

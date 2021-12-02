@@ -25,6 +25,5 @@ bombs = 2;
 originalBosconianSpeed = 3;
 maxBosconianSpeed = originalBosconianSpeed;
 
-originalMaxAsteroidsSpeed = 3;
-currentAsteroidsSpeed = 0;
-maxAsteroidsSpeed = originalMaxAsteroidsSpeed;
+originalAsteroidsSpeed = 3;
+maxAsteroidsSpeed = originalAsteroidsSpeed;

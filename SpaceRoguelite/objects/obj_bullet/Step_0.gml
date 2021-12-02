@@ -1,5 +1,6 @@
 /// @description Check if bullet still in camera view
 
+// TODO for shot distance
 //image_alpha -= 0.01;
 
 //if (image_alpha <= 0) {

@@ -5,5 +5,6 @@ with(other) {
 }
 
 if (hp < maxHp) {
+	audio_play_sound(snd_powerup, 2, false);
 	hp++;
 }

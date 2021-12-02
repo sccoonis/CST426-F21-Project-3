@@ -1,6 +1,6 @@
 /// @description Variable code
 
-image_blend = irandom_range(255,16700000)
+//image_blend = irandom_range(255,16700000)
 
 if (!instance_exists(creator)) {
 	instance_destroy();

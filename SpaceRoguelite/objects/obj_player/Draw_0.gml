@@ -8,7 +8,7 @@ if (gunType != -1) {
 					image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 }
 
-// Hitflash
+// TODO Hitflash
 if (invulnerable) {
 	
 }

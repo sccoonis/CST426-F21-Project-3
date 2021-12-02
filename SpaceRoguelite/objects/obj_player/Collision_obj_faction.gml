@@ -5,6 +5,5 @@ if (other.faction == faction) {
 	exit;
 }
 
-
 // Take damage
 event_perform(ev_other, ev_user0);

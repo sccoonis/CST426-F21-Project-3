@@ -1,7 +1,6 @@
 /// @description Initialize variables
 
 score = 0;
-lives = 3;
 
 enum factions {
 	ally,
